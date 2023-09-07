@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
-n = 0
+import fileinput
 
-while n < 100000:
-    n += 1
-    word = input();
+for word in fileinput.input():
     encoding = ''
     lastCode = ''
     for character in word:
