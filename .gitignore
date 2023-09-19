@@ -1,5 +1,9 @@
 bin/
 
+# Platform
+
+.DS_Store
+
 # Tooling
 
 .vscode/
