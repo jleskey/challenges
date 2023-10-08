@@ -14,3 +14,7 @@ bin/
 *.pdf
 *.odt
 *.docx
+
+# Test files
+
+test*.txt
