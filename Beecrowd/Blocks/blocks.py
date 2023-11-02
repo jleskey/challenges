@@ -45,7 +45,7 @@ for case in range(1, t + 1):
                     if color == focal_color:
                         if last_color != focal_color:
                             focal_color_segments += 1
-                            if focal_color_segments % 2 == 0:
+                            if focal_color_segments >= 2:
                                 # Flush the remainder. This section would be played
                                 # first and thus must be separate.
                                 #print("Flushed remainder:", remainder_sections[-1])
